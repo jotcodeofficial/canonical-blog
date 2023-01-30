@@ -1,0 +1,45 @@
+@import "vanilla-framework";
+@include vanilla;
+
+
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.p-card__content {
+  margin: 0 $sp-small;
+  padding: $sp-medium $sp-small $sp-small;
+  &.canon-card__content {
+    border-top: 1px dotted #cecece;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.p-card--highlighted {
+  display: flex;
+  flex-direction: column;
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .p-card__header.padded {
+      padding: $sp-medium $sp-medium $sp-small;
+  }
+
+  .p-card__header {
+    border-bottom: none;
+    border-top: 3px solid #a87da0;
+  }
+}
+
+.p-card__footer {
+  border-top: 1px dotted #cecece;
+  padding: $sp-medium $sp-small;
+  margin: 0 $sp-small;
+}

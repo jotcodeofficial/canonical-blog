@@ -1,0 +1,32 @@
+.page-link {
+    color: black;
+}
+
+.page-item {
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    color: white;
+    outline: #000 solid 1px;
+    
+}
+
+.page-item:hover {
+   background-color: #F2F2F2;
+   text-decoration: none;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    gap: 5px;
+}
+
+.active {
+    color: red;
+    background-color: #e6e6e6;
+}
