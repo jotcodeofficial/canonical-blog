@@ -1,5 +1,7 @@
 # canonical-blog
 
+ <img width="400px" src="https://github.com/jotcodeofficial/Storage/blob/master/canon.png" align="center" alt="Canonical Blog" />
+
 This project is a simple clone of Canonicals blog.
 It has a header dropdown to filter content types. It also has pagination in the footer to paginate the content contained in the json file.
 
